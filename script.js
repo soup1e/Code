@@ -94,6 +94,7 @@ const painter1 = paint("green");
 const painter2 = paint("yellow");
 const painter3 = paint("red");
 
+console.log(painter1.paints());
 // Problem 2
 
 function sound(noise) {
@@ -107,6 +108,8 @@ const faucet = sound("Drip drip drip.");
 const oldCar = sound("Grumble grumble");
 const sleepyBear = sound("Grrr...yawn");
 
+console.log(faucet.sound());
+
 // Problem 3
 function throwSpear(distance, speed) {
   return {
@@ -118,6 +121,8 @@ function throwSpear(distance, speed) {
 const robot1 = throwSpear(100, 200);
 const robot2 = throwSpear(150, 100);
 const robot3 = throwSpear(400, 50);
+
+console.log(robot1.throw());
 
 // Problem 4
 const dancer = {};

@@ -1,5 +1,4 @@
 const functions = require("./../script.js");
-const paint = require("./../script.js");
 
 describe("tests", () => {
   it("should return a welcome message", () => {
